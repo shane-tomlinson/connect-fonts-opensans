@@ -1,0 +1,19 @@
+{
+  "Author": "Shane Tomlinson <shane@shanetomlinson.com> (https://shanetomlinson.com)",
+  "name": "connect-fonts-opensans",
+  "description": "OpenSans font set for connect-fonts",
+  "keywords": ["font", "font-face", "CSS", "OpenSans", "connect-fonts"],
+  "homepage": "https://github.com/shane-tomlinson/connect-fonts-opensans",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shane-tomlinson/connect-fonts-opensans.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shane-tomlinson/connect-fonts-opensans/issues"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.4.7"
+  },
+  "main": "index"
+}
