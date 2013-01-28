@@ -1,10 +1,10 @@
 # connect-fonts-opensans
 
-A connect-fonts fontpack for the OpenSans font.
+A connect-fonts[https://github.com/shane-tomlinson/connect-fonts] fontpack for the OpenSans font.
 
 ## Usage
 
-1. Include connect-fonts in a node module.
+1. Include connect-fonts[https://github.com/shane-tomlinson/connect-fonts] in a node module.
 ```
 const font_middleware = require("connect-fonts");
 ```
