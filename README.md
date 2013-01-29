@@ -1,10 +1,10 @@
 # connect-fonts-opensans
 
-A connect-fonts[https://github.com/shane-tomlinson/connect-fonts] fontpack for the OpenSans font.
+A [connect-fonts](https://github.com/shane-tomlinson/connect-fonts) fontpack for the OpenSans font.
 
 ## Usage
 
-1. Include connect-fonts[https://github.com/shane-tomlinson/connect-fonts] in a node module.
+1. Include [connect-fonts](https://github.com/shane-tomlinson/connect-fonts) in a node module.
 ```
 const font_middleware = require("connect-fonts");
 ```
@@ -16,10 +16,10 @@ const opensans = require("connect-fonts-opensans");
 
 3. Add a middleware by calling the `setup` function.
 ```
-app.use(font_middleware.setup({
-  fonts: [ opensans ],
-  allow_origin: "https://exampledomain/com"
-}));
+    app.use(font_middleware.setup({
+      fonts: [ opensans ],
+      allow_origin: "https://exampledomain/com"
+    }));
 ```
 
 
@@ -35,8 +35,7 @@ app.use(font_middleware.setup({
 
 ## Credits
 
-Original font set downloaded from fontsquirrel.com. Open Sans created by
-Ascender Fonts @ http://www.ascenderfonts.com/
+Original font set downloaded from fontsquirrel.com. Open Sans created by [Ascender Fonts](http://www.ascenderfonts.com/)
 
 ## License
 
