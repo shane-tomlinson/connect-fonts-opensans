@@ -18,7 +18,7 @@ const opensans = require("connect-fonts-opensans");
 ```
     app.use(font_middleware.setup({
       fonts: [ opensans ],
-      allow_origin: "https://exampledomain/com"
+      allow_origin: "https://exampledomain.com"
     }));
 ```
 
