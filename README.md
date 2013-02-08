@@ -22,6 +22,18 @@ const opensans = require("connect-fonts-opensans");
     }));
 ```
 
+4. Add a link tag to include the font CSS.
+```
+    <link href="/en/opensans-regular/fonts.css" type="text/css" rel="stylesheet"/ >
+```
+
+5. Set your CSS up to use the new font by using the "Open Sans" font-family.
+```
+    body {
+      font-family: 'Open Sans', 'sans-serif', 'serif';
+    }
+```
+
 
 ## Author
 * Shane Tomlinson

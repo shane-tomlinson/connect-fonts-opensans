@@ -9,6 +9,7 @@ module.exports = {
     "cs": "cs",
     "da": "da",
     "de": "de",
+    "default": "default",
     "en": "en",
     "es": "es",
     "et": "et",
@@ -31,11 +32,39 @@ module.exports = {
   // The fonts. The name of the font must be the same as the font
   // in the fonts directory.
   "fonts": {
-    "opensans-regular": {
+    "opensans-bold": {
       "fontFamily": "Open Sans",
       "fontStyle": "normal",
+      "fontWeight": "700",
+      "local": [ "Open Sans Bold", "OpenSansBold" ]
+    },
+
+    "opensans-bolditalic": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "italic",
+      "fontWeight": "700",
+      "local": [ "Open Sans Bold Italic", "OpenSansBoldItalic" ]
+    },
+
+    "opensans-extrabold": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "normal",
+      "fontWeight": "800",
+      "local": [ "Open Sans ExtraBold", "OpenSansExtraBold" ]
+    },
+
+    "opensans-extrabolditalic": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "italic",
+      "fontWeight": "800",
+      "local": [ "Open Sans ExtraBold Italic", "OpenSansExtraBoldItalic" ]
+    },
+
+    "opensans-italic": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "italic",
       "fontWeight": "400",
-      "local": [ "Open Sans", "OpenSans" ]
+      "local": [ "Open Sans Italic", "OpenSansItalic" ]
     },
 
     "opensans-light": {
@@ -45,18 +74,32 @@ module.exports = {
       "local": [ "Open Sans Light", "OpenSansLight" ]
     },
 
-    "opensans-bold": {
-      "fontFamily": "Open Sans",
-      "fontStyle": "normal",
-      "fontWeight": "700",
-      "local": [ "Open Sans Bold", "OpenSansBold" ]
-    },
-
-    "opensans-italic": {
+    "opensans-lightitalic": {
       "fontFamily": "Open Sans",
       "fontStyle": "italic",
+      "fontWeight": "300",
+      "local": [ "Open Sans Light Italic", "OpenSansLightItalic" ]
+    },
+
+    "opensans-regular": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "normal",
       "fontWeight": "400",
-      "local": [ "Open Sans Italic", "OpenSansItalic" ]
+      "local": [ "Open Sans", "OpenSans" ]
+    },
+
+    "opensans-semibold": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "normal",
+      "fontWeight": "600",
+      "local": [ "Open Sans SemiBold", "OpenSansSemiBold" ]
+    },
+
+    "opensans-semibolditalic": {
+      "fontFamily": "Open Sans",
+      "fontStyle": "italic",
+      "fontWeight": "600",
+      "local": [ "Open Sans SemiBold Italic", "OpenSansSemiBoldItalic" ]
     }
   }
 };
