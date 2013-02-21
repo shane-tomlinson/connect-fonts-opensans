@@ -5,6 +5,7 @@ module.exports = {
 
   // where to find a locale's fonts in the fonts directory
   "locale-to-subdirs": {
+    "pt": "es",
     "ru": "cyrillic"
   },
 
