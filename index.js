@@ -22,49 +22,51 @@ module.exports = {
       "fontFamily": "Open Sans",
       "fontStyle": "normal",
       "fontWeight": "700",
-      "local": [ "Open Sans Bold", "OpenSansBold" ]
+      "local": [ "Open Sans Bold", "OpenSans-Bold" ]
     },
 
     "opensans-bolditalic": {
       "fontFamily": "Open Sans",
       "fontStyle": "italic",
       "fontWeight": "700",
-      "local": [ "Open Sans Bold Italic", "OpenSansBoldItalic" ]
+      "local": [ "Open Sans Bold Italic", "OpenSans-BoldItalic" ]
     },
 
     "opensans-extrabold": {
       "fontFamily": "Open Sans",
       "fontStyle": "normal",
       "fontWeight": "800",
-      "local": [ "Open Sans ExtraBold", "OpenSansExtraBold" ]
+      "local": [ "Open Sans Extrabold", "OpenSans-Extrabold" ]
     },
 
     "opensans-extrabolditalic": {
       "fontFamily": "Open Sans",
       "fontStyle": "italic",
       "fontWeight": "800",
-      "local": [ "Open Sans ExtraBold Italic", "OpenSansExtraBoldItalic" ]
+      "local": [ "Open Sans Extrabold Italic", "OpenSans-ExtraboldItalic" ]
     },
 
     "opensans-italic": {
       "fontFamily": "Open Sans",
       "fontStyle": "italic",
       "fontWeight": "400",
-      "local": [ "Open Sans Italic", "OpenSansItalic" ]
+      "local": [ "Open Sans Italic", "OpenSans-Italic" ]
     },
 
     "opensans-light": {
       "fontFamily": "Open Sans",
       "fontStyle": "normal",
       "fontWeight": "300",
-      "local": [ "Open Sans Light", "OpenSansLight" ]
+      "local": [ "Open Sans Light", "OpenSans-Light" ]
     },
 
     "opensans-lightitalic": {
       "fontFamily": "Open Sans",
       "fontStyle": "italic",
       "fontWeight": "300",
-      "local": [ "Open Sans Light Italic", "OpenSansLightItalic" ]
+      // oddly enough, the Postscripot name is OpenSansLight-Italic, not
+      // OpenSans-LightItalic
+      "local": [ "Open Sans Light Italic", "OpenSansLight-Italic" ]
     },
 
     "opensans-regular": {
@@ -78,14 +80,14 @@ module.exports = {
       "fontFamily": "Open Sans",
       "fontStyle": "normal",
       "fontWeight": "600",
-      "local": [ "Open Sans SemiBold", "OpenSansSemiBold" ]
+      "local": [ "Open Sans Semibold", "OpenSans-Semibold" ]
     },
 
     "opensans-semibolditalic": {
       "fontFamily": "Open Sans",
       "fontStyle": "italic",
       "fontWeight": "600",
-      "local": [ "Open Sans SemiBold Italic", "OpenSansSemiBoldItalic" ]
+      "local": [ "Open Sans Semibold Italic", "OpenSans-SemiboldItalic" ]
     }
   }
 };
