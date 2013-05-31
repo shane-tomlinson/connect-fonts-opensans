@@ -1,19 +1,29 @@
 {
   "Author": "Shane Tomlinson <shane@shanetomlinson.com> (https://shanetomlinson.com)",
   "name": "connect-fonts-opensans",
-  "description": "OpenSans font set for connect-fonts",
-  "keywords": ["font", "font-face", "CSS", "OpenSans", "connect-fonts"],
+  "description": "Open Sans font pack for connect-fonts",
+  "keywords": ["font", "font-face", "CSS", "connect-fonts", "opensans-bold", "opensans-bolditalic", "opensans-extrabold", "opensans-extrabolditalic", "opensans-italic", "opensans-light", "opensans-lightitalic", "opensans-regular", "opensans-semibold", "opensans-semibolditalic"],
   "homepage": "https://github.com/shane-tomlinson/connect-fonts-opensans",
+  "licenses": [
+    {
+      "covers": "software",
+      "type": "MPL-2.0",
+      "url": "http://mozilla.org/MPL/2.0/"
+    },
+    {
+      "covers": "fonts",
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shane-tomlinson/connect-fonts-opensans.git"
+    "url": "https://github.com/shane-tomlinson/connect-fonts-opensans"
   },
-  "bugs": {
-    "url": "https://github.com/shane-tomlinson/connect-fonts-opensans/issues"
-  },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "node": ">= 0.4.7"
   },
   "main": "index"
 }
+
